@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logo Gallery</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/gallery.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <nav class="header__nav">
+        <div class="header__nav-left">
+          <div class="header__logo">
+            <a href="index.html">
+              <i class="bx bxs-leaf"></i>
+            </a>
+          </div>
+          <div class="header__menu">
+            <button class="btn-header-full active">Templates</button>
+            <button class="btn-header-full">My Logos</button>
+          </div>
+        </div>
+        <div class="header__sign-up">
+          <div class="vertical-center">
+            <a href="login.html" class="btn-sign-up">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <div class="sidebar__search">
+        <span class="sidebar__title">Search Templates</span>
+        <div class="sidebar__search-input">
+          <button class="btn-search"><i class="bx bx-search"></i></button>
+          <input
+            type="text"
+            class="search-form"
+            placeholder="Enter search keywords"
+          />
+          <button class="btn-clear"><i class="bx bx-x"></i></button>
+        </div>
+      </div>
+
+      <div class="sidebar__scrollable">
+        <div class="sidebar__categories">
+          <div class="sidebar__title-container">
+            <span class="sidebar__title">Categories</span>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="sidebar__categories-popular">
+            <ul class="list">
+              <li class="item active">
+                <i class="bx bx-star" style="color: #ffd700"></i>Popular
+              </li>
+              <li class="item">
+                <i class="bx bx-heart" style="color: #ff69b4"></i>My Favourites
+              </li>
+            </ul>
+          </div>
+          <div class="sidebar__categories-container">
+            <ul class="list">
+              <li class="item">
+                <i class="bx bx-code-alt" style="color: #008b8b"></i>Web
+                Development
+              </li>
+              <li class="item">
+                <i class="bx bx-mobile" style="color: #ff8c00"></i>Mobile App
+                Development
+              </li>
+              <li class="item">
+                <i class="bx bx-paint" style="color: #a9a9a9"></i>Graphic Design
+              </li>
+              <li class="item">
+                <i class="bx bx-video" style="color: #00ced1"></i>Video
+                Production
+              </li>
+              <li class="item">
+                <i class="bx bx-pencil" style="color: #ba55d3"></i>Copywriting
+              </li>
+              <li class="item">
+                <i class="bx bx-line-chart" style="color: #ffa500"></i>Marketing
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="sidebar__colors">
+          <div class="sidebar__title-container">
+            <span class="sidebar__title">Colors</span>
+            <i class="bx bx-chevron-down"></i>
+          </div>
+          <div class="sidebar__colors-container">
+            <ul class="list">
+              <li class="item active">
+                <i class="bx bxs-circle" style="color: #ff0000"></i>Red
+              </li>
+              <li class="item">
+                <i class="bx bxs-circle" style="color: #ffa500"></i>Orange
+              </li>
+              <li class="item">
+                <i class="bx bxs-circle" style="color: #ffff00"></i>Yellow
+              </li>
+              <li class="item">
+                <i class="bx bxs-circle" style="color: #00ff00"></i>Green
+              </li>
+              <li class="item">
+                <i class="bx bxs-circle" style="color: #0000ff"></i>Blue
+              </li>
+              <li class="item">
+                <i class="bx bxs-circle" style="color: #4b0082"></i>Indigo
+              </li>
+              <li class="item">
+                <i class="bx bxs-circle" style="color: #ee82ee"></i>Violet
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="templates">
+      <div class="template-header">
+        <h1>Logo Templates</h1>
+        <div class="template-info">
+          <span>100</span>
+          <span class="category-selected">Popular</span>
+          <span>Logo Templates</span>
+        </div>
+      </div>
+      <div class="logo-templates">
+        <div class="logo-template">
+          <img
+            src="./images/templates/abstract-brown-crown.webp"
+            alt="Logo Template 1"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/abstract-ship-and-water.webp"
+            alt="Logo Template 2"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/abstract-yellow-bag-icon.webp"
+            alt="Logo Template 3"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/circle-abstract-seahorse.webp"
+            alt="Logo Template 4"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/gradient-bracket-and-developer.webp"
+            alt="Logo Template 5"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/gray-and-red-letter-m.webp"
+            alt="Logo Template 6"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/circle-abstract-seahorse.webp"
+            alt="Logo Template 4"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/gradient-bracket-and-developer.webp"
+            alt="Logo Template 5"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+        <div class="logo-template">
+          <img
+            src="./images/templates/gray-and-red-letter-m.webp"
+            alt="Logo Template 6"
+          />
+          <div class="template-overlay">
+            <button class="btn-similar">Similar</button>
+            <button class="btn-customize">Customize</button>
+            <div class="square-container">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/gallery.js"></script>
+  </body>
+</html>
