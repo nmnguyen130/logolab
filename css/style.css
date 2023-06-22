@@ -188,6 +188,22 @@
     }
 }
 
+@media (max-width: 768px) {
+    .navbar__logo span {
+        display: none;
+    }
+
+    .navbar__nav.open {
+        width: 180px;
+    }
+
+    .nav__item.dropdown .dropdown-menu {
+        width: 160px;
+        top: 0;
+        left: -89%;
+    }
+}
+
 /* Intro */
 .main-intro {
     position: relative;
@@ -279,7 +295,8 @@
     .xlarge { width: 400px; height: 400px; left: -200px; bottom: -200px; }
     .xxlarge { width: 500px; height: 500px; left: -250px; bottom: -250px; }
 
-    .intro__title { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .intro__content {padding: 0 10px; }
+    .intro__title { font-size: 2.3rem; margin-bottom: 0.5rem; }
     .intro__description { font-size: 1.1rem; margin-bottom: 1rem; }
     .btn-more { padding: 1rem 1.5rem; font-size: 1rem; }
 }
