@@ -89,7 +89,7 @@
         </div>
       </div>
       <div class="sidebar__container">
-        <div class="sidebar__container-item">
+        <div class="sidebar__container-item active">
           <div class="sidebar__search">
             <div class="sidebar__search-input">
               <button class="btn-search"><i class="bx bx-search"></i></button>
@@ -106,29 +106,29 @@
             <span>Popular Searches:</span>
           </div>
           <div class="sidebar__scrollable">
-            <div class="sidebar__icons">
-              <ul class="icon-list">
-                <li class="icon-item">
+            <div class="sidebar__content">
+              <ul class="content-list">
+                <li class="content-item icon">
                   <i class="bx bxl-youtube" style="color: #ff0000"></i>
                   <span>YouTube</span>
                 </li>
-                <li class="icon-item">
+                <li class="content-item icon">
                   <i class="bx bxs-music" style="color: #1e90ff"></i>
                   <span>Music</span>
                 </li>
-                <li class="icon-item">
+                <li class="content-item icon">
                   <i class="bx bxl-facebook-square" style="color: #1877f2"></i>
                   <span>Facebook</span>
                 </li>
-                <li class="icon-item">
+                <li class="content-item icon">
                   <i class="bx bxl-tiktok" style="color: #000"></i>
                   <span>Tiktok</span>
                 </li>
-                <li class="icon-item">
+                <li class="content-item icon">
                   <i class="bx bxs-heart" style="color: #ff0000"></i>
                   <span>Tiktok</span>
                 </li>
-                <li class="icon-item">
+                <li class="content-item icon">
                   <i class="bx bxl-instagram-alt" style="color: #e1306c"></i>
                   <span>Instagram</span>
                 </li>
@@ -137,8 +137,225 @@
           </div>
         </div>
 
-        <div class="sidebar__container-item">Hello</div>
+        <div class="sidebar__container-item">
+          <div class="sidebar__addText">
+            <div class="sidebar__name">Add Logo Name</div>
+            <div class="sidebar__slogan">Add Slogan</div>
+          </div>
+          <div class="sidebar__addFont">
+            <div class="font-select">
+              <span>Select a Font:</span>
+              <i class="bx bx-chevron-down"></i>
+            </div>
+            <div class="font-content">
+              <div class="sidebar__search">
+                <div class="sidebar__search-input">
+                  <button class="btn-search">
+                    <i class="bx bx-search"></i>
+                  </button>
+                  <input
+                    type="text"
+                    class="search-form"
+                    placeholder="Enter search keywords"
+                  />
+                  <button class="btn-clear"><i class="bx bx-x"></i></button>
+                </div>
+              </div>
+
+              <ul class="font-options"></ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar__container-item">
+          <div class="sidebar__search">
+            <div class="sidebar__search-input">
+              <button class="btn-search"><i class="bx bx-search"></i></button>
+              <input
+                type="text"
+                class="search-form"
+                placeholder="Enter search keywords"
+              />
+              <button class="btn-clear"><i class="bx bx-x"></i></button>
+            </div>
+          </div>
+
+          <div class="sidebar__title">
+            <span>Popular Shape:</span>
+          </div>
+          <div class="sidebar__scrollable">
+            <div class="sidebar__content">
+              <ul class="content-list">
+                <li class="content-item shape">
+                  <i class="bx bxs-rectangle"></i>
+                </li>
+                <li class="content-item shape">
+                  <i class="bx bxs-square"></i>
+                </li>
+                <li class="content-item shape">
+                  <i class="bx bxs-circle"></i>
+                </li>
+                <li class="content-item shape">
+                  <i class="bx bxs-shield"></i>
+                </li>
+                <li class="content-item shape">
+                  <i class="bx bxs-polygon"></i>
+                </li>
+                <li class="content-item shape">
+                  <i class="bx bxs-circle-half"></i>
+                </li>
+                <li class="content-item shape">
+                  <i class="bx bxs-certification"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="sidebar__container-item">
+          <div class="background-transparent">
+            <input type="checkbox" id="check" />
+            <label for="check">Transparent background</label>
+          </div>
+          <div class="background-picker">
+            <span>Document Colors</span>
+            <div class="color-content">
+              <div class="color-picker">
+                <input type="color" id="color-input" class="color-input" />
+                <label for="color-input" class="color-label">
+                  <i class="bx bx-plus"></i>
+                </label>
+              </div>
+              <div class="color-picker fixed-color white"></div>
+              <div class="color-picker fixed-color black"></div>
+            </div>
+          </div>
+
+          <div class="background-picker">
+            <span>Solid Colors</span>
+            <div class="color-content">
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #ff0000"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #00ff00"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #0000ff"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #ffff00"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #ff00ff"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #00ffff"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #800000"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #008000"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #000080"
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="background-color: #808080"
+              ></div>
+            </div>
+          </div>
+
+          <div class="background-picker">
+            <span>Gradient Colors</span>
+            <div class="color-content">
+              <div
+                class="color-picker fixed-color"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    rgba(255, 0, 0, 1),
+                    rgba(255, 0, 0, 0)
+                  );
+                "
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    rgba(255, 0, 0, 1),
+                    rgba(255, 0, 0, 0.5)
+                  );
+                "
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    rgba(255, 0, 0, 1),
+                    rgba(255, 0, 0, 0.2)
+                  );
+                "
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    rgba(0, 255, 0, 1),
+                    rgba(0, 255, 0, 0)
+                  );
+                "
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    rgba(0, 255, 0, 1),
+                    rgba(0, 255, 0, 0.5)
+                  );
+                "
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    rgba(0, 0, 255, 1),
+                    rgba(0, 0, 255, 0)
+                  );
+                "
+              ></div>
+              <div
+                class="color-picker fixed-color"
+                style="
+                  background: linear-gradient(
+                    to right,
+                    rgba(0, 0, 255, 1),
+                    rgba(0, 0, 255, 0.5)
+                  );
+                "
+              ></div>
+            </div>
+          </div>
+        </div>
       </div>
     </aside>
+
+    <script src="./js/customize.js"></script>
   </body>
 </html>

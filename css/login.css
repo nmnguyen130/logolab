@@ -46,7 +46,8 @@ main {
 
 /* Form Background */
 .form-background {
-    min-width: 700px;
+    position: absolute;
+    min-width: 100%;
     min-height: 320px;
     margin: 0 auto;
     padding: 20px;
@@ -295,7 +296,7 @@ label a {
         top: 0;
         box-shadow: none;
     }
-    .form-container .form-box {
+    .form-background .form-box {
         position: absolute;
         width: 100%;
         height: 150px;
@@ -303,5 +304,9 @@ label a {
     }
     .form-box.login {
         top: 0;
+    }
+    .form-container.active {
+        left: 0;
+        top: 150px;
     }
 }

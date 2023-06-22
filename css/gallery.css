@@ -329,7 +329,8 @@
     opacity: 1;
 }
 
-.template-overlay button {
+.template-overlay button,
+.template-overlay .btn-customize {
     background-color: #000000;
     color: #ffffff;
     border: none;
@@ -341,7 +342,8 @@
     margin: 5px 0;
 }
 
-.template-overlay button:hover {
+.template-overlay button:hover,
+.template-overlay .btn-customize:hover {
     background-color: #ffffff;
     color: #000000;
 }

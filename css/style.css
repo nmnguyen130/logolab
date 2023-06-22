@@ -431,6 +431,10 @@
     margin-right: 5px;
 }
 
+.customize .btn-customize {
+    color: var(--white-color);
+}
+
 .caption {
     position: absolute;
     bottom: 5px;
@@ -468,6 +472,21 @@
 
 .image-box:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .gallery__images img {
+        width: 230px;
+        height: 230px;
+    }
+    .image-box {
+        width: 230px;
+        height: 230px;
+    }
+    .transparent-box {
+        width: 230px;
+        height: 230px;
+    }
 }
 
 /* Call To Action */

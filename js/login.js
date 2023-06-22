@@ -4,11 +4,11 @@ const signupBtn = document.querySelector(".signupBtn");
 const formContainer = document.querySelector(".form-container");
 
 loginBtn.addEventListener("click", () => {
-  formContainer.classList.add("active");
+  formContainer.classList.remove("active");
 });
 
 signupBtn.addEventListener("click", () => {
-  formContainer.classList.remove("active");
+  formContainer.classList.add("active");
 });
 
 // Hide / Show Eye Icon
