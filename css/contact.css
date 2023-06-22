@@ -292,8 +292,29 @@ textarea::-webkit-scrollbar-thumb {
     }
 
     .row section.left,
-    .row sevtion.right {
+    .row section.right {
         flex-basis: 100%;
         margin: 0;
+    }
+
+    .input-group button {
+        padding: 8px 10px;
+    }
+
+    .button-box {
+        flex-direction: column;
+    }
+
+    .button-box button {
+        width: 100%;
+    }
+
+    .return-box {
+        padding-top: 10px;
+    }
+
+    .return-box span {
+        font-size: 18px;
+        margin-right: 10px;
     }
 }

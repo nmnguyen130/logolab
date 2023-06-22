@@ -1,3 +1,28 @@
+// Show sidebar
+let isAllowed = false;
+
+const btnSidebar = document.querySelector(".floating-container.search");
+const sidebar = document.querySelector(".sidebar");
+const mainOverlay = document.querySelector(".main-overlay");
+
+btnSidebar.addEventListener("click", () => {
+  if (isAllowed) {
+    sidebar.style.left = "0";
+    mainOverlay.classList.add("active");
+  }
+});
+
+mainOverlay.addEventListener("click", () => {
+  if (isAllowed) {
+    sidebar.style.left = "-100%";
+    mainOverlay.classList.remove("active");
+  }
+});
+
+if (window.innerWidth <= 991) {
+  isAllowed = true;
+}
+
 // Show sidebar component
 var titleContainers = document.querySelectorAll(".sidebar__title-container");
 titleContainers.forEach(function (titleContainer) {

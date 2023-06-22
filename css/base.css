@@ -129,6 +129,15 @@ li {
     margin: 35px 25px;
 }
 
+.floating-container.search {
+    position: fixed;
+    width: 80px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    margin: 35px 25px;
+}
+
 .floating-container:hover {
     height: 340px;
     z-index: 10000;
@@ -144,13 +153,13 @@ li {
     position: absolute;
     width: 65px;
     height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--secondary-color);
     bottom: 0;
     border-radius: 50%;
-    left: 0;
-    right: 0;
     color: var(--white-color);
-    line-height: 65px;
     text-align: center;
     font-size: 23px;
     z-index: 10000;
