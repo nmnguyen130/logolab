@@ -8,6 +8,8 @@
     --white-color: #fff;
     --dark-color: #333;
     --border-color: #dbdbdb;
+    --growth-from: 0.7;
+    --growth-to: 1;
 }
 
 * {

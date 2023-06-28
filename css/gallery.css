@@ -35,6 +35,9 @@
 }
 
 .btn-header-full {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 15px;
     font-family: inherit;
     font-weight: 500;
@@ -255,6 +258,15 @@
     border-bottom: 1px solid #ccc;
 }
 
+/* Container Section */
+.change-container {
+    min-height: calc(100vh - 60px);
+}
+
+.change-container.hidden {
+    display: none;
+}
+
 /* Logo Templates */
 .templates {
     background-color: #eaeaea;
@@ -446,4 +458,109 @@
     .template-overlay .square-container .bx {
         font-size: 14px;
     }
+}
+
+/* Similar Container */
+.similar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000000;
+    display: none;
+    animation: fadeIn .2s ease-in-out;
+}
+
+.similar-container.show {
+    display: flex;
+}
+
+.similar-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0 , 0, 0.4);
+}
+
+.similar-content {
+    position: relative;
+    margin: auto;
+    width: 80vw;
+    height: 85vh;
+    background: var(--white-color);
+    border-radius: 6px;
+    animation: growth .2s ease-in-out;
+}
+
+.similar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.similar-header h1 {
+    font-size: 1.6rem;
+    margin-left: 30px;
+}
+
+.similar-header .template-info {
+    margin-right: 20px;
+}
+
+.similar__scrollable {
+    margin-top: 10px;
+    height: calc(100% - 65px);
+    overflow-y: auto;
+}
+
+.similar.logo-templates {
+    grid-template-columns: repeat(auto-fit, 200px);
+}
+
+.similar.logo-templates .logo-template {
+    width: 200px;
+    height: 200px;
+}
+
+.similar.logo-templates .logo-template .btn-customize {
+    width: 55%;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+.similar.logo-templates .template-overlay .square-container {
+    width: 28px;
+    height: 28px;
+}
+
+.similar.logo-templates .template-overlay .square-container .bx {
+    font-size: 18px;
+}
+
+/* Close */
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    transform: translateX(calc(100% + 5px));
+    border-radius: 50%;
+    border: 1px solid var(--white-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.close i {
+    font-size: 24px;
+    color: var(--white-color);
+    transition: all .3s ease;
+}
+
+.close:hover i {
+    transform: rotate(90deg);
 }
